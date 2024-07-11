@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* 이미지 업로드 컨테이너 스타일 */
+.upload-container {
+    display: inline-block; /* 가로로 배치되도록 설정 */
+   	margin-right: 10px; /* 각 컨테이너 간의 간격 조정 */
+}
+
+/* 이미지 미리보기를 위한 스타일 */
+.img_box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    position: relative;  
+}
+
+/* 플러스 버튼 스타일 */
+.btn-upload {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    position: relative;
+    background: none;
+    outline: none;
+}
+
+#btn_svg {
+    width: 48px;
+    height: 48px;
+    fill: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 이미지 미리보기를 위한 스타일 */
+.preview-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* 이미지 업로드 컨테이너 가운데 정렬 */
+#image-upload {
+    text-align: center;
+}
+
+.form-group {
+    position: relative; /* 부모 요소에 대한 상대적인 위치를 지정합니다 */
+}
+
+#btnLocation {
+    border: none; /* 버튼 태그의 테두리 제거 */
+    background-color: transparent; /* 배경색 제거 */
+    position: absolute; /* 절대적인 위치를 지정하여 input 안으로 이동시킵니다 */
+    top: 50%; /* 부모 요소의 세로 중앙에 위치하도록 설정 */
+    padding-left: 1105px;
+    transform: translateY(-50%); /* 세로 중앙 정렬을 위한 변형 */
+}
+
+/* 아이콘의 크기를 조절합니다 */
+#btnLocation i {
+    font-size: 2.5rem; /* 아이콘 크기 조절 */
+}
+
+/* 위치 입력 input 요소와 아이콘 간의 간격을 조절합니다 */
+#location {
+    padding-right: 15px; /* 오른쪽 여백을 설정하여 아이콘과의 간격 조절 */
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.custom-form-group {
+    margin-bottom: 15px;
+}
+
+.custom-form-control {
+    border-radius: 0;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.custom-btn {
+    border-radius: 0;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+}

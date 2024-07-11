@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* container2 안의 요소들을 가로로 배치 */
+.container2 {
+  display: flex;
+  flex-direction: row; /* 요소들을 가로로 배치 */
+  align-items: center; /* 요소들을 세로 중앙 정렬 */
+}
+
+/* 위치 정보 표시 영역 디자인 */
+.current-location {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.current-location i {
+  margin-right: 5px;
+}
+
+/* 검색과 위치 정보 사이의 간격을 조절 */
+.search-container {
+  margin-right: -300px; /* 검색과 위치 정보 사이의 간격을 조절 */
+}
